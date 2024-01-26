@@ -1,0 +1,118 @@
+/* Your styles here */
+body {
+  background-color: #e9edee;
+  font-family: Arial;
+}
+/*HEDER*/
+
+.intestazione {
+  background-color: #222f3f;
+  padding-block: 0.5rem;
+  padding-inline-start: 1rem;
+}
+
+.intestazione img {
+  width: 10%;
+}
+
+.menù {
+  background-color: #364759;
+  color: white;
+  padding-block: 0.5rem;
+}
+nav {
+  display: inline-block;
+}
+.a-white {
+  color: white;
+  text-decoration: none;
+  padding-inline: 0.5rem;
+}
+/*MAIN*/
+main {
+  margin: 1.5rem;
+}
+
+.p-orange {
+  background-color: #f56600;
+  color: white;
+  padding-block: 0.5rem;
+  text-align: center;
+  margin-block-end: 1.5rem;
+}
+
+.sfondo-titolo {
+  background-image: url(../images/bg-image.png);
+  background-size: cover;
+  background-position: center;
+  height: 7rem;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-block-start: 2rem;
+  padding-block-end: 1rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h2 {
+  padding-block-end: 1rem;
+}
+
+.box-cards {
+  background-color: white;
+  text-align: center;
+  padding: 0.5rem;
+  margin-block: 2rem;
+}
+.card {
+  display: inline-block;
+
+  width: 24%;
+}
+.card img {
+  width: 100%;
+  border-radius: 30%;
+}
+
+.contenitore-shop {
+  text-align: center;
+  margin-block-end: 2rem;
+}
+
+.a-blue {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #1e6472;
+}
+
+.contenitore-shop img {
+  width: 100%;
+}
+
+/*FOOTER*/
+.go-top {
+  background-color: #364759;
+  padding-block: 1rem;
+  text-align: center;
+}
+.go-top a {
+  font-weight: bold;
+  color: white;
+}
+
+.logo-footer {
+  text-align: center;
+  background-color: #222f3f;
+  padding: 2rem;
+}
+.logo-footer img {
+  width: 15%;
+}
