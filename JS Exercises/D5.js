@@ -35,6 +35,7 @@ console.log(petsCloned);
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
+
 const firstElement = pets.shift();
 pets.push(firstElement);
 
@@ -71,6 +72,7 @@ for (let i = 0; i < cars.length; i++) {
 }
 
 console.log(cars);
+
 /* ESERCIZIO 6
 Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
 Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
@@ -122,12 +124,13 @@ for (let i = 0; i < cars.length; i++) {
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
-const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
+let numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
+let index32 = numericArray.indexOf(32);
 
-while (i === 32) {
-  if (i === 32) {
-  } else {
-    console.log(numericArray);
+for (let i = 0; i < numericArray.length; i++) {
+  console.log(numericArray[i]);
+  if (numericArray[i] === 32) {
+    break;
   }
 }
 
